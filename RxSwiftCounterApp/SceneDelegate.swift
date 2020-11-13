@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  RxSwiftCounterApp
 //
-//  Created by sasada mai on 2020/10/17.
+//  Created by sasada.m on 2020/10/17.
 //  Copyright © 2020 sasada mai. All rights reserved.
 //
 
