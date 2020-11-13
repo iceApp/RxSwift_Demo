@@ -3,7 +3,7 @@
 //  RxSwiftCounterApp
 //
 //  Created by sasada.m on 2020/10/19.
-//  Copyright © 2020 sasada mai. All rights reserved.
+//  Copyright © 2020 sasada.m. All rights reserved.
 //
 
 import Foundation
