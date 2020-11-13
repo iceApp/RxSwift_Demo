@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,7 +10,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="RxSwiftCounterApp" customModuleProvider="target">
             <connections>
-                <outlet property="countLabel" destination="RyJ-Ti-0Gi" id="LTF-VL-gEB"/>
+                <outlet property="countDownButton" destination="UKz-E2-KTv" id="7eW-Jy-bIK"/>
+                <outlet property="countLabel" destination="RyJ-Ti-0Gi" id="Jdo-Xf-aQS"/>
+                <outlet property="countResetButton" destination="IIm-EN-dJq" id="QI4-5b-c2L"/>
+                <outlet property="countUpButton" destination="7Zp-kB-v3P" id="5z3-V4-2Ct"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Yhm-bO-bPy"/>
             </connections>
         </placeholder>
@@ -27,23 +31,14 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zp-kB-v3P">
                     <rect key="frame" x="192" y="164.66666666666666" width="30" height="30"/>
                     <state key="normal" title="Up"/>
-                    <connections>
-                        <action selector="countUp:" destination="-1" eventType="touchUpInside" id="6kX-2i-SPS"/>
-                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIm-EN-dJq">
                     <rect key="frame" x="187.66666666666666" y="376.66666666666669" width="39" height="30"/>
                     <state key="normal" title="Reset"/>
-                    <connections>
-                        <action selector="countReset:" destination="-1" eventType="touchUpInside" id="fxc-ro-jFc"/>
-                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKz-E2-KTv">
                     <rect key="frame" x="187.66666666666666" y="244.66666666666663" width="39" height="30"/>
                     <state key="normal" title="Down"/>
-                    <connections>
-                        <action selector="countDown:" destination="-1" eventType="touchUpInside" id="Uaa-z2-TRb"/>
-                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

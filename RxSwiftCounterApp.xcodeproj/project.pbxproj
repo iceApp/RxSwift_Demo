@@ -16,7 +16,7 @@
 		61B0AB28253B30C700F25892 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61B0AB27253B30C700F25892 /* ViewController.xib */; };
 		61B0AB2E253D680300F25892 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B0AB2D253D680300F25892 /* ViewModel.swift */; };
 		61B0AB32253DD22800F25892 /* CounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B0AB31253DD22800F25892 /* CounterPresenter.swift */; };
-		61B0AB3525404C0200F25892 /* CounterViewModelIput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B0AB3425404C0200F25892 /* CounterViewModelIput.swift */; };
+		61B0AB3C2542B23300F25892 /* RxSwiftCounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B0AB3B2542B23300F25892 /* RxSwiftCounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		61B0AB27253B30C700F25892 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		61B0AB2D253D680300F25892 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		61B0AB31253DD22800F25892 /* CounterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterPresenter.swift; sourceTree = "<group>"; };
-		61B0AB3425404C0200F25892 /* CounterViewModelIput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModelIput.swift; sourceTree = "<group>"; };
+		61B0AB3B2542B23300F25892 /* RxSwiftCounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftCounterViewModel.swift; sourceTree = "<group>"; };
 		E009C93E1FEBEE0201EA76D2 /* Pods-RxSwiftCounterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCounterApp.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftCounterApp/Pods-RxSwiftCounterApp.release.xcconfig"; sourceTree = "<group>"; };
 		FB3CB230E1A7EE7E74E6D1F1 /* Pods-RxSwiftCounterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftCounterApp.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftCounterApp/Pods-RxSwiftCounterApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,7 +118,7 @@
 		61B0AB3A2540532400F25892 /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				61B0AB3425404C0200F25892 /* CounterViewModelIput.swift */,
+				61B0AB3B2542B23300F25892 /* RxSwiftCounterViewModel.swift */,
 			);
 			name = RxSwift;
 			sourceTree = "<group>";
@@ -260,7 +260,7 @@
 				61B0AB2E253D680300F25892 /* ViewModel.swift in Sources */,
 				61B0AB16253AE32200F25892 /* SceneDelegate.swift in Sources */,
 				61B0AB32253DD22800F25892 /* CounterPresenter.swift in Sources */,
-				61B0AB3525404C0200F25892 /* CounterViewModelIput.swift in Sources */,
+				61B0AB3C2542B23300F25892 /* RxSwiftCounterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
